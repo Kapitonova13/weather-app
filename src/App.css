@@ -77,6 +77,8 @@ button {
   background: none;
   border: none;
   cursor: pointer;
+  color: #000000;
+  
 }
 
 .search-results li button:hover {
