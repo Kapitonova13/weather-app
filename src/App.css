@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: system-ui, sans-serif;
+  
+}
+
+.controls {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.search-bar {
+  flex: 1;
+  margin-top: 1rem;
+  
+}
+
+.search-bar form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid black;
+  outline: none;
+}
+
+button {
+  border-radius: 10px;
+  border: none;
+  background-color: #000000;
+  color: #fff;
+  transition: .15s;  
+  &:hover {
+    scale: 1.08;
+  }
+}
+
+.search-bar button {
+  padding-inline: 1rem;
+}
+.unit-toggle,
+.weather-card button {
+  padding-block: 10px;
+  width: 30%;
+  margin: 0 auto;  
+}
+.weather-card button {
+  margin-top: 20px;
+}
+
+.search-results {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.search-results li button {
+  width: 100%;
+  text-align: left;
+  padding: 0.5rem 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.search-results li button:hover {
+  background: #f0f0f0;
+}
+
+.weather-card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  border: 1px solid #c6c6c6;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.temperature {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.error {
+  color: rgb(213, 64, 64);
+}
