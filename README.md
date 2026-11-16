@@ -5,6 +5,8 @@
 
 ☀️ **[Ссылка на живое демо](https://kapitonova13.github.io/weather-app/)** 
 
+![](screenshots/app.png)
+
 ##  Технологический стек
 *   **React** (Functional components, Hooks)
 *   **TypeScript** (строгая типизация, Union Types, Type Guards)
